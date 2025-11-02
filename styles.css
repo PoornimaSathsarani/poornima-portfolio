@@ -37,4 +37,29 @@ body {
   footer {
     font-size: 0.9em;
   }
+  #themeToggle {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 15px;
+  }
   
+  #themeToggle:hover {
+    background-color: #777;
+  }
+  
+  /* Dark Mode Colors */
+  body.dark-mode {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode footer {
+    background-color: #111;
+  }
+    
