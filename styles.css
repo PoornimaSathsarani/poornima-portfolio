@@ -60,7 +60,7 @@ body {
   
   body.dark-mode header,
   body.dark-mode footer {
-    background-color: #111;
+    background-color: #050505;
   }
   /* Contact Form Styling */
 form {
