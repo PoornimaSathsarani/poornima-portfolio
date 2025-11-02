@@ -62,4 +62,36 @@ body {
   body.dark-mode footer {
     background-color: #111;
   }
-    
+  /* Contact Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+  
