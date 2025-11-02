@@ -93,5 +93,19 @@ button[type="submit"]:hover {
   margin-top: 10px;
   font-weight: bold;
 }
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
 
   
