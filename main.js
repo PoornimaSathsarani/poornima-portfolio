@@ -39,4 +39,36 @@ form.addEventListener("submit", (e) => {
   messageDisplay.style.color = "green";
   form.reset();
 });
+// Week 6: Dynamic Projects
+const projects = [
+  {
+    title: "Health Monitor",
+    description: "A device to monitor heart rate and temperature.",
+    image: "images/project1.jpg"
+  },
+  {
+    title: "AI Chatbot",
+    description: "A bilingual chatbot for healthcare assistance.",
+    image: "images/project2.jpg"
+  },
+  {
+    title: "Portfolio Website",
+    description: "My personal responsive portfolio built with HTML, CSS, and JS.",
+    image: "images/project3.jpg"
+  }
+];
+
+const projectsContainer = document.getElementById("projectsContainer");
+
+projects.forEach((project) => {
+  const card = document.createElement("div");
+  card.classList.add("project-card");
+  card.innerHTML = `
+    <img src="${project.image}" alt="${project.title}">
+    <h3>${project.title}</h3>
+    <p>${project.description}</p>
+  `;
+  projectsContainer.appendChild(card);
+});
+
 
