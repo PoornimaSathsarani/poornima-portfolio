@@ -1,9 +1,10 @@
+// 🌙 Dark Mode Toggle
 const toggleButton = document.getElementById("themeToggle");
 const body = document.body;
 
 toggleButton.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
-  
+
   // Change button text based on theme
   if (body.classList.contains("dark-mode")) {
     toggleButton.textContent = "Light Mode";
@@ -11,7 +12,8 @@ toggleButton.addEventListener("click", () => {
     toggleButton.textContent = "Dark Mode";
   }
 });
-// Contact Form Validation
+
+// 📬 Contact Form Validation
 const form = document.getElementById("contactForm");
 const messageDisplay = document.getElementById("formMessage");
 
@@ -39,7 +41,8 @@ form.addEventListener("submit", (e) => {
   messageDisplay.style.color = "green";
   form.reset();
 });
-// Week 6: Dynamic Projects
+
+// 🧩 Week 6: Dynamic Projects
 const projects = [
   {
     title: "Health Monitor",
@@ -70,5 +73,3 @@ projects.forEach((project) => {
   `;
   projectsContainer.appendChild(card);
 });
-
-
