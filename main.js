@@ -47,17 +47,17 @@ const projects = [
   {
     title: "Health Monitor",
     description: "A device to monitor heart rate and temperature.",
-    image: "images/project1.jpg"
+    image: "images/profile.jpg"
   },
   {
     title: "AI Chatbot",
     description: "A bilingual chatbot for healthcare assistance.",
-    image: "images/project2.jpg"
+    image: "images/project01.jpg"
   },
   {
     title: "Portfolio Website",
     description: "My personal responsive portfolio built with HTML, CSS, and JS.",
-    image: "images/project3.jpg"
+    image: "images/project03.jpg"
   }
 ];
 
